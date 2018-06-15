@@ -1,9 +1,6 @@
 FROM resin/raspberrypi3-python:3
 LABEL description="Hal"
 WORKDIR /app
-RUN apt-get update && \
-    apt-get upgrade -y && \
-    apt-get install webp imagemagick
 ADD requirements.txt .
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt

@@ -24,4 +24,3 @@ TwitterAPI                                      # plugins: twitter
 google-api-python-client                        # plugins: spotify
 spotipy                                         # plugins: spotify
 soundcloud                                      # plugins: spotify
-imagemagick					# plugins: imagewebp						# plugins: image 
